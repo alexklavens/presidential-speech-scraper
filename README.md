@@ -10,7 +10,7 @@ Please find two example files (presidential inaugurals) in the `example_data` fo
 
 ## Requirements
 
-This program runs on Python and BeautifulSoup (bs4). I recommend using python3.6.
+This program runs on Python and BeautifulSoup (bs4). I recommend using Python 3.6.
 
 ```
 >>> pip install beautifulsoup4
@@ -42,7 +42,7 @@ EXAMPLE_INAUGURAL_URL = "https://www.presidency.ucsb.edu/advanced-search?field-k
 STARTING_URL = EXAMPLE_INAUGURAL_URL # replace this one
 ```
 
-For example, to get State of the Union addresses, replace `STARTING_URL`.
+For example, to get State of the Union addresses, reassign `STARTING_URL`.
 ```python
 STARTING_URL = "https://www.presidency.ucsb.edu/advanced-search?field-keywords=&field-keywords2=&field-keywords3=&from%5Bdate%5D=&to%5Bdate%5D=&person2=&category2%5B%5D=45&items_per_page=25"
 ```
