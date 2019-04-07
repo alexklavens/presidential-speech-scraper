@@ -2,7 +2,7 @@
 
 ## About
 
-This is a program that makes documents related to the American presidency programmatically accessible. It scrapes search results from the American Presidency Project, a massive online repository of presidential documentation. I created this for the purpose of accessing documents for a natural language processing research project.
+This is a program that makes documents related to the American presidency programmatically accessible. It scrapes search results from the [American Presidency Project](https://www.presidency.ucsb.edu/), a massive online repository of presidential documentation. I created this for the purpose of accessing documents for a natural language processing research project.
 
 Currently, the program works in conjunction with the APP's advanced search tool. Based on a given search result (a table of document links), this program generates two JSON files. The first is a metadata file. The second contains speech text and categorizations.
 
