@@ -55,9 +55,9 @@ STARTING_URL = "https://www.presidency.ucsb.edu/advanced-search?field-keywords=&
 
 ## Results
 
-The program will generate two files. The first is a metadata file that is a JSON representation of the scraped results table.
+The program will generate two files. Those files are set to be stored in the `results` folder. They are automatically named with the date and time you run the program.
 
-Here's what one entry in that file will look like:
+The first is a metadata file that is a JSON representation of the scraped results table. Here's what one entry in that file will look like:
 
 ```JSON
 {
@@ -68,7 +68,7 @@ Here's what one entry in that file will look like:
 }
 ```
 
-The second file contains actual speech information. This information comes from individual document pages.
+The second file contains actual speech information, including speech text. This information comes from individual document pages.
 
 Here's the George Washington Inaugural:
 
